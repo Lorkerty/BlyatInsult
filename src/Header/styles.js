@@ -4,7 +4,11 @@ export const HeaderCabina = styled.div`
 
 width: 100%;
 height: 60px;
-background-color: grey;
+display: flex;
+justify-content: space-between;
+padding-top: 10px;
+background-color: #2b323f;
+color: #4caf50;
 position: absolute;
 top: 0px;
 left: 0px;

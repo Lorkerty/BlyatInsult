@@ -36,9 +36,20 @@ export const FormButton = styled(Button)`
 
 height: 60px;
 width: 100%;
-color: green;
-transition: all 4s ease-in-out;
+color: #4caf50;
+transition: all 0.7s ease-in-out;
 
+
+`
+
+export const FormSmallButton = styled(Button)`
+
+height: 80%;
+width: 150px;
+background-color: #2b323f;
+color: #4caf50;
+box-shadow: 2px;
+transition: all 0.7s ease-in-out;
 
 `
 
@@ -49,7 +60,7 @@ export const FormTextInput = styled(TextField)`
 && input{
     color: #dc1818;
 
-    &&::before{
+&&::before{
         border-color: #a5a5a8;
     }
 &&::after{
@@ -63,5 +74,12 @@ export const FormTextInput = styled(TextField)`
 
 width: 40%;
 margin-bottom: 30px;
+
+
+`
+
+export const DivForButtons = styled.div`
+
+    justify-content: space-between;
 
 `

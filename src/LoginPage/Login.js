@@ -7,9 +7,9 @@ export default function Login() {
         <LoginContainer>
             <FormContainer elevation={5}>
                 <FormLogoImage />
-                <FormTextInput label="standart"/>
-                <FormTextInput label="standart"/>
-                <FormButton>PRIFFKI</FormButton>
+                <FormTextInput label="Nickname" variant="outlined"/>
+                <FormTextInput label="Password" variant="outlined" type="password"/>
+                <FormButton>Залоол</FormButton>
             </FormContainer>
         </LoginContainer> 
     )
