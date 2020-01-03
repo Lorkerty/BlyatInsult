@@ -59,6 +59,7 @@ export const FormTextInput = styled(TextField)`
 
 && input{
     color: #dc1818;
+}
 
 &&::before{
         border-color: #a5a5a8;
@@ -66,17 +67,21 @@ export const FormTextInput = styled(TextField)`
 &&::after{
         border-color: #dc1818;
     }
-}
+    border-color: #a5a5a8;
+
 
 && label{
     color: #a5a5a8;
 }
+
 
 width: 40%;
 margin-bottom: 30px;
 
 
 `
+
+
 
 export const DivForButtons = styled.div`
 

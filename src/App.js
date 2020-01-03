@@ -4,6 +4,7 @@ import Login from './LoginPage/Login'
 import Register from './RegisterPage/Register'
 import Header from './Header/Header'
 import './index.css'
+import Musique from './MusiquePage/Musique';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Login}/>
           <Route exact path="/register" component={Register}/>
+          <Route exact path="/musiquePage" component={Musique}/>
         </Switch>
       </BrowserRouter>
       

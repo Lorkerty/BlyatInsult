@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import bgi from '../assets/249547.png'
 
-export const LoginContainer = styled.div`
+export const LoginContainer = styled.form`
 
 width: 100%;
 height: 100vh;
