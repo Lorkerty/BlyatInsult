@@ -4,30 +4,29 @@ import {
         MusiqueCardButton, 
         MusiqueCardImg, 
         MusiqueCardTextContent,
-        MusiqueCardButtonDiv 
+        MusiqueCardButtonDiv,
+        MusiqueCardTitleBackground
     } from './styles'
 
 export default function MusiqueCard() {
     return(
 
         <MusiqueCardStr>
-            <MusiqueCardImg/>
+            <MusiqueCardImg>
+                Name
+                <MusiqueCardTitleBackground/>            
+            </MusiqueCardImg>
             <MusiqueCardTextContent>
-                IdiotasIdiotasIdiotasIdiotasIdiotas
-                IdiotasIdiotasIdiotas
-                IdiotasIdiotasIdiotasIdiotas
-                Idiotas
-                Idiotas
-                IdiotasIdiotasIdiotas
-                
+                Idiota sIdiotasIdi otasIdiotasIdiotas Idiota sIdiotasI di otasIdiot asId iota sIdi otasIdiotasId iotas IdiotasId iotas Idiota sIdiotasIdi otasIdiotasIdiotas Idiota sIdiotasI di otasIdiot asId iota sIdi otasIdiotasId iotas IdiotasId iotas Idiota sIdiotasIdi otasIdiotasIdiotas Idiota sIdiotasI di otasIdiot asId iota sIdi otasIdiotasId iotas IdiotasId iotas              
             </MusiqueCardTextContent>
-            <MusiqueCardButton>
-                Like
-            </MusiqueCardButton>
-            <MusiqueCardButton>
-                Dislike(Ban)
-            </MusiqueCardButton>
-            <MusiqueCardButtonDiv></MusiqueCardButtonDiv>
+            <MusiqueCardButtonDiv>
+                <MusiqueCardButton>
+                    Like
+                </MusiqueCardButton>
+                <MusiqueCardButton>
+                    Dislike(Ban)
+                </MusiqueCardButton>
+            </MusiqueCardButtonDiv>
         </MusiqueCardStr>
 
     )
