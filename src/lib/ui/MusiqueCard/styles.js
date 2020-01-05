@@ -41,7 +41,8 @@ position: relative;
     background-attachment: fixed;
 }
 
-background: url('https://pm1.narvii.com/6845/614de7032e8ffa8bf8d4fff5612dfb8d5cae82fev2_hq.jpg') center center no-repeat;
+background: url('${props => props.img}') center center no-repeat;
+background-size: cover;
 
 `
 

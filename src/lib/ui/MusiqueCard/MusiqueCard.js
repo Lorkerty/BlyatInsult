@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {useState} from 'react'
+
 import { 
         MusiqueCardStr,
         MusiqueCardButton, 
@@ -8,23 +9,43 @@ import {
         MusiqueCardTitleBackground
     } from './styles'
 
-export default function MusiqueCard() {
+export default function MusiqueCard({title, description, author, likes, dislikes, maldad, id, img, onLike, index}) {
+
+    const [likesState, setLikesState] = useState(likes)
+
+    const[dislikesState, setDislikesState] = useState(dislikes)
+
+    function increment(value) {
+        return value + 1;
+    }
+
+    function incrementLikes(){
+        onLike(id)
+
+        setLikesState(increment)
+
+    }
+
+    function incrementDislikes() {
+        setDislikesState(increment);
+    }
+
     return(
 
         <MusiqueCardStr>
-            <MusiqueCardImg>
-                Name
+            <MusiqueCardImg img={img}>
+                {title}, {author}, {index}
                 <MusiqueCardTitleBackground/>            
             </MusiqueCardImg>
             <MusiqueCardTextContent>
-                Idiota sIdiotasIdi otasIdiotasIdiotas Idiota sIdiotasI di otasIdiot asId iota sIdi otasIdiotasId iotas IdiotasId iotas Idiota sIdiotasIdi otasIdiotasIdiotas Idiota sIdiotasI di otasIdiot asId iota sIdi otasIdiotasId iotas IdiotasId iotas Idiota sIdiotasIdi otasIdiotasIdiotas Idiota sIdiotasI di otasIdiot asId iota sIdi otasIdiotasId iotas IdiotasId iotas              
+                {description}
             </MusiqueCardTextContent>
             <MusiqueCardButtonDiv>
-                <MusiqueCardButton>
-                    Like
+                <MusiqueCardButton onClick={incrementLikes}>
+                    Like({likesState})
                 </MusiqueCardButton>
-                <MusiqueCardButton>
-                    Dislike(Ban)
+                <MusiqueCardButton onClick={incrementDislikes}>
+                    Dislike({dislikesState})
                 </MusiqueCardButton>
             </MusiqueCardButtonDiv>
         </MusiqueCardStr>

@@ -10,7 +10,9 @@ padding-top: 10px;
 background-color: #2b323f;
 color: #4caf50;
 position: absolute;
+z-index: 1000;
 top: 0px;
 left: 0px;
+
 
 `
