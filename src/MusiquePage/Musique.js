@@ -25,17 +25,32 @@ export default function Musique() {
         id={object.id} 
         img={object.img}
         onLike={handleLike}
+        onDislike={handleDislike}
         index={index}
         />
     }
     function handleLike(id) {
+        
         setSongs(songs => {
             const updateAt = songs.findIndex(s => s.id === id)
-            songs[updateAt].likedByUser = true
+            if(songs[updateAt].likedByUser == false) {
+                songs[updateAt].likes += 1
+                songs[updateAt].likedByUser = true
+            }
+            return [ ...songs
+            ]; 
+        })        
+    }
+
+    function handleDislike(id) {
+        setSongs(songs => {
+            const deleteAt = songs.findIndex(s => (
+                s.id === id
+            ))
+            songs.splice(deleteAt, 1)
             return [ ...songs
             ]; 
         })
-        
     }
     return (
         <MusiquePage>

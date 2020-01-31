@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Featured",
+        "sublist": [
+            {
+                "title": "David Bowie",
+                "modalContent": "David Robert Jones (8 January 1947 – 10 January 2016), known professionally as David Bowie was an English singer-songwriter and actor."
+            },
+            {
+                "title": "Jim Morrison",
+                "modalContent": "James Douglas Morrison (December 8, 1943 – July 3, 1971) was an American singer, songwriter and poet, who served as the lead vocalist of the rock band the Doors. Due to his poetic lyrics, distinctive baritone voice, wild personality, unpredictable and erratic performances, and the dramatic circumstances surrounding his life and early death."
+            },
+            {
+                "title": "Sir James Paul McCartney",
+                "modalContent": "Sir James Paul McCartney CH MBE (born 18 June 1942) is an English singer, songwriter, musician, composer, and record and film producer who gained worldwide fame as co-lead vocalist and bassist for the Beatles. His songwriting partnership with John Lennon remains the most successful in history."
+            }
+        ]
+    },
+    {
+        "title": "Classic",
+        "sublist": [
+            {
+                "title": "Ludwig van Beethoven",
+                "modalContent": "Ludwig van Beethoven (/ˈlʊdvɪɡ væn ˈbeɪt(h)oʊvən/ (About this soundlisten); German: [ˈluːtvɪç fan ˈbeːthoːfn̩] (About this soundlisten); baptised 17 December 1770[1] – 26 March 1827) was a German composer and pianist. A crucial figure in the transition between the classical and romantic eras in classical music, he is considered to be one of the greatest composers of all time."
+            },
+            {
+                "title": "Jim Morrison",
+                "modalContent": "James Douglas Morrison (December 8, 1943 – July 3, 1971) was an American singer, songwriter and poet, who served as the lead vocalist of the rock band the Doors. Due to his poetic lyrics, distinctive baritone voice, wild personality, unpredictable and erratic performances, and the dramatic circumstances surrounding his life and early death."
+            },
+            {
+                "title": "Jim Morrison",
+                "modalContent": "James Douglas Morrison (December 8, 1943 – July 3, 1971) was an American singer, songwriter and poet, who served as the lead vocalist of the rock band the Doors. Due to his poetic lyrics, distinctive baritone voice, wild personality, unpredictable and erratic performances, and the dramatic circumstances surrounding his life and early death."
+            },
+            {
+                "title": "Jim Morrison",
+                "modalContent": "James Douglas Morrison (December 8, 1943 – July 3, 1971) was an American singer, songwriter and poet, who served as the lead vocalist of the rock band the Doors. Due to his poetic lyrics, distinctive baritone voice, wild personality, unpredictable and erratic performances, and the dramatic circumstances surrounding his life and early death."
+            },
+            {
+                "title": "Jim Morrison",
+                "modalContent": "James Douglas Morrison (December 8, 1943 – July 3, 1971) was an American singer, songwriter and poet, who served as the lead vocalist of the rock band the Doors. Due to his poetic lyrics, distinctive baritone voice, wild personality, unpredictable and erratic performances, and the dramatic circumstances surrounding his life and early death."
+            },
+            {
+                "title": "Jim Morrison",
+                "modalContent": "James Douglas Morrison (December 8, 1943 – July 3, 1971) was an American singer, songwriter and poet, who served as the lead vocalist of the rock band the Doors. Due to his poetic lyrics, distinctive baritone voice, wild personality, unpredictable and erratic performances, and the dramatic circumstances surrounding his life and early death."
+            },
+            {
+                "title": "Jim Morrison",
+                "modalContent": "James Douglas Morrison (December 8, 1943 – July 3, 1971) was an American singer, songwriter and poet, who served as the lead vocalist of the rock band the Doors. Due to his poetic lyrics, distinctive baritone voice, wild personality, unpredictable and erratic performances, and the dramatic circumstances surrounding his life and early death."
+            }
+        ]
+    }
+]

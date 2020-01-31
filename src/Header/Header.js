@@ -1,5 +1,6 @@
 import React from 'react'
 import { HeaderCabina } from './styles'
+import Timer from '../Timer/Timer.js'
 import { FormSmallButton, DivForButtons } from '../lib/ui/forms/index'
 
 

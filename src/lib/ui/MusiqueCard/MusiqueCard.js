@@ -9,29 +9,16 @@ import {
         MusiqueCardTitleBackground
     } from './styles'
 
-export default function MusiqueCard({title, description, author, likes, dislikes, maldad, id, img, onLike, index}) {
+export default function MusiqueCard({title, description, author, likes, dislikes, maldad, id, img, onLike, onDislike, index}) {
 
-    const [likesState, setLikesState] = useState(likes)
-
-    const[dislikesState, setDislikesState] = useState(dislikes)
-
-    function increment(value) {
-        return value + 1;
+    function handleLikeButton(){
+        onLike(id)       
     }
-
-    function incrementLikes(){
-        onLike(id)
-
-        setLikesState(increment)
-
-    }
-
-    function incrementDislikes() {
-        setDislikesState(increment);
+    function handleDislikeButton() {
+        onDislike(id);
     }
 
     return(
-
         <MusiqueCardStr>
             <MusiqueCardImg img={img}>
                 {title}, {author}, {index}
@@ -41,17 +28,14 @@ export default function MusiqueCard({title, description, author, likes, dislikes
                 {description}
             </MusiqueCardTextContent>
             <MusiqueCardButtonDiv>
-                <MusiqueCardButton onClick={incrementLikes}>
-                    Like({likesState})
+                <MusiqueCardButton onClick={handleLikeButton}>
+                    Like({likes})
                 </MusiqueCardButton>
-                <MusiqueCardButton onClick={incrementDislikes}>
-                    Dislike({dislikesState})
+                <MusiqueCardButton onClick={handleDislikeButton}>
+                    Dislike
                 </MusiqueCardButton>
             </MusiqueCardButtonDiv>
         </MusiqueCardStr>
-
-    )
-         
-    
+    )   
 }
 
